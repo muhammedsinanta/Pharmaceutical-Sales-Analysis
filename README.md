@@ -27,7 +27,7 @@ The project demonstrates practical skills in data analysis, data visualization, 
 | Tool / Technology | Purpose |
 |---|---|
 | Tableau | Data visualization and interactive dashboard development |
-| Microsoft Excel | Dataset inspection and preparation, if performed |
+| Microsoft Excel | Dataset inspection and preparation |
 | Data Analysis | Exploring pharmaceutical sales performance |
 | Exploratory Data Analysis (EDA) | Identifying patterns and trends in the available data |
 
@@ -39,7 +39,7 @@ The project uses a pharmaceutical sales dataset to explore sales performance and
 
 The dataset is stored in the `dataset/` directory.
 
-**Dataset Source:** Add the original source here if the dataset was obtained from a publicly available source.
+**Dataset Source:** Kaggle — Pharmacy_Sales_Data.
 
 ## 🔄 Project Workflow
 
@@ -89,7 +89,6 @@ The following areas can be documented with specific findings from the completed 
 - **Category Performance:** Categories contributing the largest share of sales.
 - **Comparative Analysis:** Differences in sales performance across available dimensions.
 
-*Specific numerical findings should be added after verifying the values shown in the dashboard.*
 
 ## 📂 Project Structure
 
