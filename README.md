@@ -1,22 +1,22 @@
-# Pharmaceutical Sales Analysis
+# Pharmaceutical Sales Analysis | Tableau Dashboard
 
 ## 📌 Project Overview
 
-The **Pharmaceutical Sales Analysis** project focuses on analyzing pharmaceutical sales data to understand sales performance, revenue distribution, product performance, and regional trends.
+The **Pharmaceutical Sales Analysis** project focuses on analyzing pharmaceutical sales data to understand sales performance, revenue distribution, product performance, and sales trends.
 
-The project uses Tableau to transform sales data into visualizations that help identify patterns, compare performance across categories and regions, and support data-driven business decisions.
+Developed using Tableau, this project transforms pharmaceutical sales data into visualizations that help explore business performance, compare sales across available categories, and identify patterns that can support data-driven decision-making.
 
-The analysis explores sales trends, revenue by product category, regional performance, payment methods, top-performing medicines, and the relationship between sales and profit, where supported by the available dataset.
+The project demonstrates practical skills in data analysis, data visualization, and interactive dashboard development.
 
 ## 🎯 Project Objectives
 
 - Analyze pharmaceutical sales trends over time.
-- Evaluate revenue performance across product categories.
-- Compare sales performance across regions.
-- Identify top-performing medicines based on sales.
-- Examine payment method distribution.
-- Explore the relationship between sales and profit.
-- Present key findings through interactive Tableau visualizations.
+- Evaluate sales and revenue performance across available product categories.
+- Compare sales performance across available regions.
+- Identify top-performing pharmaceutical products based on sales.
+- Explore sales patterns and distributions within the dataset.
+- Present analytical findings through an interactive Tableau dashboard.
+- Support data-driven interpretation of pharmaceutical sales performance.
 
 ## 📊 Dashboard Preview
 
@@ -26,92 +26,70 @@ The analysis explores sales trends, revenue by product category, regional perfor
 
 | Tool / Technology | Purpose |
 |---|---|
-| Tableau | Data visualization and dashboard development |
-| Microsoft Excel | Data inspection and preparation, if used |
-| Data Cleaning | Preparing data for reliable analysis, if performed |
-| Exploratory Data Analysis (EDA) | Exploring patterns and trends in the dataset |
-
-*Only retain the tools and activities that you actually used in this project.*
+| Tableau | Data visualization and interactive dashboard development |
+| Microsoft Excel | Dataset inspection and preparation, if performed |
+| Data Analysis | Exploring pharmaceutical sales performance |
+| Exploratory Data Analysis (EDA) | Identifying patterns and trends in the available data |
 
 ## 📁 Dataset
 
-The project uses pharmaceutical sales data to analyze product sales, revenue, and related business performance indicators.
+**Dataset File:** `Pharmacy_Sales_Data_Final.xlsx`
 
-The analysis may include the following dimensions, depending on the available dataset:
+The project uses a pharmaceutical sales dataset to explore sales performance and identify patterns within the available data.
 
-- Sales date
-- Medicine or product name
-- Product category
-- Sales amount or revenue
-- Region or location
-- Payment method
-- Profit, if available
+The dataset is stored in the `dataset/` directory.
 
-**Dataset file:** See the `dataset/` folder.
-
-**Dataset source:** Add the original dataset source and URL here.
-
-The dataset should be documented accurately so that viewers can understand its origin and scope.
+**Dataset Source:** Add the original source here if the dataset was obtained from a publicly available source.
 
 ## 🔄 Project Workflow
 
 ### 1. Data Understanding
-Examined the available dataset to understand its structure, fields, and suitability for pharmaceutical sales analysis.
+Examined the dataset to understand its structure, available fields, and suitability for pharmaceutical sales analysis.
 
 ### 2. Data Preparation
-Prepared the dataset for analysis, including cleaning or correcting data where necessary.
+Prepared the dataset for analysis, performing data cleaning where required.
 
-### 3. Exploratory Data Analysis
-Explored sales patterns and compared performance across available product, category, regional, and time dimensions.
+### 3. Data Analysis
+Explored available sales data to understand performance across relevant products, categories, and other available dimensions.
 
 ### 4. Data Visualization
-Used Tableau to build visualizations that present sales performance and related trends.
+Used Tableau to represent sales data through visualizations that make patterns and comparisons easier to interpret.
 
 ### 5. Dashboard Development
-Organized relevant visualizations into a dashboard to make the analysis easier to explore.
+Organized the visualizations into a dashboard to present the analysis in an accessible format.
 
 ### 6. Insight Generation
-Interpreted the visualizations to identify meaningful patterns in pharmaceutical sales performance.
+Interpreted the dashboard visualizations to identify patterns and support a better understanding of pharmaceutical sales performance.
 
 ## 🔍 Key Areas of Analysis
 
 ### 1. Sales Trend Analysis
-Examines changes in pharmaceutical sales over time and helps identify periods of higher or lower sales activity.
+Explores sales patterns over time to understand changes in sales performance.
 
-### 2. Category-Wise Revenue Analysis
-Compares revenue across available pharmaceutical product categories.
+### 2. Product Performance Analysis
+Compares the performance of pharmaceutical products using the sales metrics available in the dataset.
 
-### 3. Regional Sales Performance
-Evaluates sales performance across regions or locations represented in the dataset.
+### 3. Category-Wise Sales Analysis
+Examines sales distribution across available product categories.
 
-### 4. Top-Selling Medicines
-Identifies medicines that perform strongly based on the selected sales metric.
+### 4. Comparative Sales Analysis
+Uses visualizations to compare sales performance across available dimensions in the dataset.
 
-### 5. Payment Method Analysis
-Explores how transactions are distributed across available payment methods.
-
-### 6. Sales and Profit Analysis
-Examines the relationship between sales and profit if both measures are available in the dataset.
+### 5. Interactive Data Exploration
+Uses Tableau dashboard functionality to make sales information easier to explore and interpret.
 
 ## 💡 Key Insights
 
-Add the most important findings from your actual dashboard in this section.
+The dashboard supports the exploration of pharmaceutical sales performance through visual comparisons and trend analysis.
 
-For each finding, describe:
-- What the dashboard shows.
-- Which category, region, product, or period stands out.
-- What the finding means from a business perspective.
+The following areas can be documented with specific findings from the completed dashboard:
 
-Examples of insight formats:
+- **Sales Trends:** Periods with comparatively high or low sales.
+- **Product Performance:** Products with the strongest sales performance.
+- **Category Performance:** Categories contributing the largest share of sales.
+- **Comparative Analysis:** Differences in sales performance across available dimensions.
 
-- **Sales Trends:** Identify the periods with the highest and lowest sales.
-- **Category Performance:** Highlight the product category generating the most revenue.
-- **Regional Performance:** Identify regions with comparatively high or low sales.
-- **Product Performance:** Highlight the best-performing medicines based on the selected metric.
-- **Payment Methods:** Identify the most frequently used payment methods, if this information is available.
-- **Profitability:** Explain the relationship between sales and profit, if analyzed.
-
-*Replace these examples with specific, verified findings from your dashboard before publishing.*
+*Specific numerical findings should be added after verifying the values shown in the dashboard.*
 
 ## 📂 Project Structure
 
@@ -119,56 +97,54 @@ Examples of insight formats:
 Pharmaceutical-Sales-Analysis/
 │
 ├── dashboard/
-│   └── Pharmaceutical_Sales_Analysis.twbx
+│   └── pharmaceutical_sales_analysis_project.twbx
 │
 ├── dataset/
-│   └── pharmaceutical_sales_dataset.xlsx
-│
-├── screenshots/
-│   └── dashboard.png
+│   └── Pharmacy_Sales_Data_Final.xlsx
 │
 ├── presentation/
-│   └── Pharmaceutical_Sales_Analysis.pptx
+│   └── Tableau_Project_ppt.pptx
 │
+├── screenshots/
+│   └── pharmaceutical_dashboard.png
+│
+├── .gitattributes
 └── README.md
 ```
 
-*Update the filenames and folders above to match your actual repository.*
-
 ## 🚀 How to View the Dashboard
 
-1. Clone or download this repository.
-2. Install Tableau Desktop or use another compatible Tableau viewing option.
-3. Navigate to the `dashboard/` folder.
-4. Open the packaged Tableau workbook (`.twbx`).
-5. Explore the available visualizations and dashboard filters.
-6. Refer to the `screenshots/` folder for the dashboard preview.
-7. Refer to the `presentation/` folder for additional project documentation, if included.
+1. Clone or download this GitHub repository.
+2. Install a compatible version of Tableau Desktop.
+3. Open the `dashboard/` directory.
+4. Open `pharmaceutical_sales_analysis_project.twbx`.
+5. Explore the available dashboard visualizations and interactive features.
+6. View `screenshots/pharmaceutical_dashboard.png` for a quick preview.
+7. Open `presentation/Tableau_Project_ppt.pptx` to review the project presentation.
 
-**Note:** Opening a workbook may require a compatible Tableau application. Data refresh may also depend on the workbook's data connections.
+**Note:** Dashboard functionality and data refresh may depend on the workbook's data connections and local configuration.
 
 ## 📄 Project Files
 
 | File or Folder | Description |
 |---|---|
-| `dashboard/` | Tableau workbook |
-| `dataset/` | Dataset used for the analysis, if shareable |
-| `screenshots/` | Dashboard screenshots |
-| `presentation/` | Project presentation, if included |
-| `README.md` | Project documentation |
+| `dashboard/` | Contains the packaged Tableau workbook |
+| `dataset/` | Contains the pharmaceutical sales dataset in Excel format |
+| `presentation/` | Contains the Tableau project presentation |
+| `screenshots/` | Contains the dashboard preview image |
+| `README.md` | Contains project documentation |
 
 ## 💼 Skills Demonstrated
 
 - Data Analysis
 - Exploratory Data Analysis
 - Data Visualization
-- Dashboard Development
+- Tableau Dashboard Development
 - Sales Performance Analysis
 - Trend Analysis
 - Comparative Analysis
+- Data Interpretation
 - Business Insight Generation
-
-*Retain only the skills demonstrated by your actual project work.*
 
 ## 👤 Author
 
@@ -178,4 +154,4 @@ GitHub: [muhammedsinanta](https://github.com/muhammedsinanta)
 
 ---
 
-*This project is part of my data analytics portfolio and demonstrates the use of data analysis and visualization to explore pharmaceutical sales performance.*
+*This project is part of my data analytics portfolio and demonstrates the application of Tableau to pharmaceutical sales data analysis and visualization.*
